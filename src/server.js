@@ -3,7 +3,7 @@ var body_parser = require('body-parser');
 var app = express();
  
 //config
-var port = 3000;
+var port = 80;
 
 app.use('/api', require('../routes/api.js')(express));
 
